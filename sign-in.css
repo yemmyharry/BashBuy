@@ -1,0 +1,200 @@
+*{margin: 0}
+
+html{
+    background: url("images/img (1).jpg");
+    background-position-y: -400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+    header{
+    height: 100px;
+    background-color: rgba(0, 0, 0);
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.top{
+    display:flex;
+    justify-content: space-around;
+    align-items: baseline
+}
+
+.suff{
+    margin: 0px 10px;
+    color: yellow;
+    padding: 5px;
+    text-decoration: none
+}
+
+#spacing{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 500px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+#register-panel{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 40px
+}
+
+#register-content{
+    margin: 40px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    height: 300px;
+}
+
+#first,#last,#user,#email,#password{
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom:2px solid yellow;
+    width: 418px;
+    color: yellow
+}
+
+.flow,span{
+    display: flex;
+    align-items: center;
+    justify-content: left
+}
+
+#yellow-link{
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px
+}
+
+#yell{
+    margin: 0px 10px;
+    color: yellow;
+    padding: 5px;
+    text-decoration: none
+}
+
+label{
+    font-size: 20px;
+    padding:0px 10px 0px 10px
+}
+
+a{font-size: 20px}
+h1{color: yellow}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding-top: 100px;
+    background: black;
+    color: whitesmoke;
+    height: 250px;
+}
+
+#foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social {
+    width: 40px;
+    
+}
+
+.footLink{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: whitesmoke;
+    font-size: 12px
+
+}
+
+#bash {
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#pany {
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#sup {
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#conet {
+    display: grid;
+    justify-content: space-around;
+}
+
+#fomat {
+    display: flex;
+    justify-content: space-around;
+    padding:  0px -20px;
+}
+
+#follow {
+    display: grid;  
+    text-decoration: none;
+    text-decoration-style: none;
+    color: whitesmoke;
+    padding-right: 10px; 
+}
+
+.form {
+    background: rgb(158, 37, 104), 0.2;
+    color: whitesmoke;
+    width: 35%;
+    height: 150px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 2em;
+    
+}
+
+input {
+    width: 30em;
+    height: 3em;
+}
+
+button {
+    height: 3em;
+    width: 10em;
+    background: rgb(226, 151, 12);
+    color: white;
+    border-radius: 8px;
+    font-weight: bolder;
+
+}
+
+.all {
+   text-align: center;
+   font-size: 12px;
+   padding-top: 2em;
+}
