@@ -57,7 +57,7 @@ html{
     height: 500px;
 }
 
-#first,#last,#user,#email,#password{
+#first,#last,#userRgd,#email,#passwordRgd{
     background-color: rgba(0, 0, 0, 0);
     outline: none;
     font-size: 20px;

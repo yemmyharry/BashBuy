@@ -1,6 +1,6 @@
 // Name and Password from the register-form
-let myName = document.getElementById('name');
-let pw = document.getElementById('pw');
+let myName = document.getElementById('userRgd');
+let pw = document.getElementById('passwordRgd');
 
 
 // storing input from register-form
@@ -8,11 +8,11 @@ function store() {
     localStorage.setItem('name', myName.value);
     localStorage.setItem('pw', pw.value);
 
-    if ("name" != '' && "pw" != ''){ 
-    window.location.href = "loki.html"
+    if (myName.value !== '' && pw.value !== ''){ 
+    window.location.href = "sign-in.html"
     }
     else{
-        alert("knead")
+        alert("re-enter details")
     }
     
 }
@@ -31,14 +31,19 @@ function check() {
     let storedPw = localStorage.getItem('pw');
 
     // entered data from the login-form
-    let userName = document.getElementById('userName');
-    let userPw = document.getElementById('userPw');
+    let userName = document.getElementById('user');
+    let userPw = document.getElementById('password');
 
     // check if stored data from register-form is equal to data from login form
     if(userName.value != storedName || userPw.value != storedPw) {
         alert('Please enter your correct Username and Password');
     }else {
-        location.href = "to-do.html"
+        location.href = "store.html"
         
     }
+
 }
+
+
+// let nema = document.getElementById("user")
+// document.getElementById("nemo").innerHTML= nema.value
