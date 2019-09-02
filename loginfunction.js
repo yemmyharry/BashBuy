@@ -21,7 +21,7 @@ function store() {
 
 
 
-
+var uset = {};
 
 // check if stored data from register-form is equal to entered data in the   login-form
 function check() {

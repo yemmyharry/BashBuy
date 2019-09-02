@@ -2,7 +2,7 @@
 
 html{
     background: url("images/img (1).jpg");
-    background-position-y: -400px;
+    background-position-y: -300px;
     background-size:cover;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif
@@ -38,15 +38,17 @@ html{
     justify-content: center;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.289);
-    padding-bottom: 100px;
+    padding-bottom: auto;
+    height: 1339px;
 }
 
 #register-panel{
     background-color: rgba(0, 0, 0, 0.5);
     height: 600px;
     width: 500px;
-    margin-top: 100px;
-    border-radius: 40px
+    margin: auto;
+    border-radius: 40px;
+    
 }
 
 #register-content{
